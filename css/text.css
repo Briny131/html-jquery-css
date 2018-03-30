@@ -1,0 +1,254 @@
+.move{
+	margin-left: 50px;
+	border-left: dashed 1px black;
+}
+*{
+	margin: 0;
+}
+#h-head{
+width: 100%;
+height: 150px;
+background-image: url("G:/ccz/图片（原）/leage_alter.jpg");
+background-size: cover;
+font-size: 15px;
+position: relative;
+}
+#h-nav{
+	height: 50px;
+	width: 80%;
+	margin: 0px auto 10px;
+	background-color: #C6C2C2;
+}
+#h-body{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #B797C0;
+	position: relative;
+}
+.tabl-color{
+	background-color: #FFFFFF;
+}
+.ceshi{	
+	display: inline;
+	position: relative;
+	left: 30%;
+}
+.head-nav{
+	height: 39px;
+	background-color: hsla(0,0%,100%,.5);
+	
+	position: relative;
+	margin: 0 auto;
+}
+.head-nav-1{
+	float: left;
+	height: 100%;
+}
+.head-nav-1>ul,.head-nav-2>ul{
+	height: 100%;
+	margin-bottom: 0px;
+	list-style: none;
+	padding: 0px;
+}
+.head-nav-1-son,.head-nav-2-son{
+	height: 100%;
+	float: left;
+	//display: inline;
+	line-height: 38px;
+}
+.hover1:hover{
+	background-color: #fff;
+	opacity: 0.5;
+}
+.head-nav-1-son>a{
+	//text-align: center;
+	color: black;
+	text-decoration:none;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.head-nav-2{
+	//float: right;
+	height: 100%;
+	position: absolute;
+	right: 12%;
+}
+.head-nav-2-son>a{
+	padding: 0 10px;
+	color: black;
+	text-decoration:none;
+}
+.head-nav-2-son-add{
+	width: 230px;
+	height:  260px;
+	background: #D3D3D3;
+	color: black;
+	position: absolute;
+	left: -80px;
+	top: 39px;
+	z-index: 80;
+}
+.add-top{
+	width: 100%;
+	float: left;
+}
+.add-top-l{
+	//display: block;
+	float: left;
+	//white-space:nowrap; 
+}
+.add-top p{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.add-li{
+	padding-left: 10px;
+	float: left;
+}
+.add-top-r{
+	float: right;
+	margin-right: 19px;
+}
+#tx{
+	position: relative;
+	width:40px;
+	height:40px; 
+	border-radius: 50%;
+	border: 0px solid white;
+	z-index: 81;
+}
+.expensive{
+	position: absolute;
+	top: 90px;
+	float: left;
+}
+.exp-p{
+	display: inline;
+	position: absolute;
+	white-space: nowrap;
+	font-size: 80%;
+	margin-top: -10px;
+	left: 5px;
+}
+.exp-img-out{
+	width: 180px;
+	height: 10px;
+	margin-top: 4px;
+	position: absolute;
+	margin-left: 40px;
+	border-radius: 5px;
+	border: 2px solid #3DAF36;
+}
+.exp-img-in{
+	margin: 0px 50px 0px 0px;
+	height: 6px;
+	width: 10%;
+	background-color: #36CE2C;
+}
+.exp-show{
+	position: absolute;
+	font-size: 80%;
+	white-space: nowrap;
+	width: 80px;
+	left: 140px;
+	top: 10px;
+}
+.ex-span{
+	position: absolute;
+	right: 0;
+	color: #696969
+}
+.exp-r{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left: 150px;
+	top: 100px;
+	background-color: black;
+	z-index: 80;
+
+}
+.outline{
+	background-color: #F1598D;
+	float: right;
+	height: 120%;
+	width: 60px;
+	line-height: 43px;
+	text-align: center;
+	margin-right: 30px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.outline a{
+	margin: 0 auto;
+	color: #FFF;
+
+}
+.head-search{
+	width: 350px;
+	height: 30px;
+	//background-color: #FFF;
+	position: absolute;
+	border-radius: 3px;
+	bottom: 10px;
+	right: 30px;
+}
+.search-form{
+	width: 60%;
+	height: 100%;
+	padding-left: 5px;
+	position: absolute;
+}
+.search-form1{
+	width: 60%;
+	height: 100%;
+	margin-left: 12%;
+	background-color: hsla(0, 100%, 100%, 0.8);	
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+#search-a{
+	float: left;
+	width: 19%;
+	height: 100%;
+	margin-right: 3px;
+	background-color: hsla(0, 100%, 100%, 0.8);
+	border-radius: 4px;
+	//display: block;
+
+}
+#search-a span {
+	color: #F1629C;
+	white-space: nowrap;
+}
+#search-a a{
+	display: block;
+	padding: 7% 0;
+	text-align: center;
+}
+#search-button{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 21%;
+
+}
+.search-button{
+	position: absolute;
+	right: 0px;
+	display: block;
+	width: 96%;
+	height: 100%;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius:0px;
+	border-left-width: 0px;
+	background-color: hsla(0, 100%, 100%, 0.8);
+}
+.search-button span{
+	background-color: hsla(0, 100%, 100%, 0.8);
+}
+/*测试*/
+
+
