@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	font-size: 18px;
+}
+ul{
+	list-style-type: none;
+	white-space: nowrap;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.top{
+	background-color: hsla(120, 30%, 70%, 0.8);
+	height: 180px;
+	position: relative;
+}
+.top p{
+	position: relative;
+	display: inline-block;
+	top: 60px;
+	left: 200px;
+	font-size: 300%;
+}
+.nav{
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	z-index: 999;
+	
+}
+.nav-1{
+	background-color: black;
+	padding: 8px;
+	border-radius: 5px;
+	opacity: 0.6;
+}
+.nav-1 a{
+	margin: 0;
+	font-size: 200%;
+	color: white;
+	margin-top: -4px;
+}
+.nav-2{
+	position: absolute;
+	background-color: black;
+	list-style-type: none;
+	padding-left: 0px;
+	border-radius: 6px;
+	box-shadow: 3px 8px 15px #424141;
+
+}
+.nav-2 li:hover{
+	background-color: #393939;
+}
+.nav-2 li a{
+	text-align: left;
+	color: white;
+	display: block;
+	width: 160px;
+	padding: 20px 0px;
+}
+.nav-2 li{
+	padding-left: 10px;
+}
+.nav-2 span{
+	display: inline-block;
+	top: 4px;
+	left: 100px;
+}
+.nav-dis{
+	display: none;
+}
+.body{
+	margin: 0px 5%;
+}
+.content{
+	margin: 20px 0px !important;
+	padding: 3% 4%;
+	border-radius: 8px;
+	height: 60%;
+	border: 1px solid #101010; 
+	box-shadow: 3px 2px 10px #565656;
+	position: relative;
+}
+.content:hover{
+	box-shadow: 8px 5px 15px #565656;
+}
+.c-title{
+	padding: 0% 0 5% 5%;
+	max-width: 95%
+	font-family: "宋体";
+}
+.c-title a{
+	/*white-space: normal;*/
+	font-size: 200%;
+	-webkit-line-clamp: 2;
+}
+.c-title a,.c-c p{
+	word-break: break-all; word-wrap:break-word;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	color: black;
+}
+.c-c{
+	padding: 0 10%;
+	border-left: 7px solid #555050;
+}
+.c-c p{
+	-webkit-line-clamp: 5;
+	color: #424242;
+
+}
+.btn1{
+	display: block!important;
+	position: absolute;
+	left: 87%;
+	top: 80%;
+}
+.mark1{
+	text-align: center;
+	margin: 30px 0;
+}
+.mark1 li,.mark1 ul{
+	display: inline;
+}
+.mark1 li{
+	padding: 0 3px;
+}
+.mark1 li a{
+	color: black;
+}
+.mark1 ul{
+	padding-left: 0;
+}
+.font-b{
+	font-weight: bold;
+}

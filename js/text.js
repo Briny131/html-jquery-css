@@ -18,6 +18,7 @@ $(document).ready(function()
 	$(".out").mouseleave(function(){
 
 			$(".head-nav-2-son-add").css("display","none");
+			//$(".exp-r").css("display","none");
 			$("#tx").animate({
 				marginTop:"0px",
 				height :'40px',

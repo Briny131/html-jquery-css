@@ -78,6 +78,9 @@ position: relative;
 	color: black;
 	text-decoration:none;
 }
+.out{
+	z-index: 81;
+}
 .head-nav-2-son-add{
 	width: 230px;
 	height:  260px;
@@ -122,6 +125,11 @@ position: relative;
 	position: absolute;
 	top: 90px;
 	float: left;
+	width: 100%;
+	height: 10%;
+}
+#clear{
+	clear: both;
 }
 .exp-p{
 	display: inline;
@@ -163,7 +171,7 @@ position: relative;
 	width: 200px;
 	height: 100px;
 	position: absolute;
-	left: 150px;
+	left: 149px;
 	top: 100px;
 	background-color: black;
 	z-index: 80;
@@ -245,10 +253,6 @@ position: relative;
 	border-top-left-radius:0px;
 	border-left-width: 0px;
 	background-color: hsla(0, 100%, 100%, 0.8);
-}
-.search-button span{
-	background-color: hsla(0, 100%, 100%, 0.8);
-}
-/*测试*/
+}/*测试*/
 
 
